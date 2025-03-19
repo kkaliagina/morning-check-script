@@ -47,7 +47,7 @@ yesterday = (datetime.today() - timedelta(days=1)).strftime("%Y%m%d")
 today_date = datetime.today().strftime("%Y-%m-%d")
 
 # Define output file path
-output_file = r"C:\Users\k.kaliagina\Desktop\Derivatives training\everyday forms\morning_check\morning_check_test.csv"
+output_file = "morning_check.csv"
 
 # Check if today is Monday
 is_monday = datetime.today().weekday() == 0
