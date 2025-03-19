@@ -25,7 +25,7 @@ jobs:
         
       - name: Check if CSV exists before committing
         run: |
-          if [ -f "reports/morning_check_test.csv" ]; then
+          if [ -f "reports/morning_check.csv" ]; then
             echo "CSV file exists, proceeding to commit."
           else
             echo "CSV file does not exist, exiting."
